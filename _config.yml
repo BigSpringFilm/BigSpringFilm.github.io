@@ -16,31 +16,31 @@ locale: eng-US
 disqus_id: REPLACEME_disqus_id
 google_analytics_track_id: REPLACEME_google_analytics_track_id
 #REQUIRED
-org_site: REPLACEME_yourGitHubID.github.io
-org_url: https://REPLACEME_yourGitHubID.github.io
-org_name: "REPLACEME_name"
+org_site: bigspringfilm.github.io
+url: http://bigspringfilm.github.io
+org_name: Big Spring Film Society
 org_summary: > # Enter your summary on the next line. Be sure to indent by two spaces.
-  REPLACEME_summary
+  A film society dedicated to bringing the art of film to Big Spring
 org_full_description: > # Enter your description on the next line. Be sure to indent by two spaces.
-  REPLACEME_full_description
+  Started in 200? with a showing of Close Encounters of the Third Kind
 
 #OPTIONAL
 #Non US-address support coming soon
-org_general_email_inbox: REPLACEME_general_email
-org_street_address: REPLACEME_street_address
-org_address_suite: REPLACEME_address_suite
-org_city: REPLACEME_city
-org_state: REPLACEME_state
+org_general_email_inbox: contact@bigspringfilm.org
+org_street_address: 901 E 2nd Street #Please include suite number on the line below
+org_address_suite: Suite 900
+org_city: Big Spring
+org_state: TX
 org_zip: > # Enter zip on next line. Be sure to indent by two spaces.
-  REPLACEME_zip
+  79720
 org_phone: > # Enter phone on next line. Be sure to indent by two spaces.
-  REPLACEME_phone
+  (123) 456-7890
 
 #SOCIAL MEDIA
-github_username: REPLACEME_yourGitHubID
-twitter_username: REPLACEME_twitter_username
-facebook_username: REPLACEME_facebook_username
-org_instagram_username: REPLACEME_instagram_username
+twitter_username: bigspringfilm
+facebook_username: bigspringfilm
+github_username: BigSpringFilm
+# org_instagram_username:
 
 #TAX STATUS
 #Your site will display an appropriate message below the Donate section
@@ -54,7 +54,7 @@ fiscal_sponsor_name:
 #To use these services, enter the required usernames. For further instructions, consult the README file.
 #If you do not wish to use a service, simply remove everything after the colon (:), leaving the item blank
 donorbox_campaign_name: free-template-demo
-tinyletter_username: tinyletter_username
+tinyletter_username: interestingnonprofits
 
 #SEARCH ENGINES
 #Changing this next setting to 'true' will allow your site to be indexed by search engines (like Google)
@@ -98,8 +98,8 @@ smartergiving_id: #Not yet available
 permalink: pretty
 prose:
   rooturl: '_posts'
-  siteurl: 'http://REPLACEME_yourGitHubID.github.io/'
-  relativeLinks: 'http://REPLACEME_yourGitHubID.github.io/links.jsonp'
+  siteurl: 'http://bigspringfilm.github.io/'
+  relativeLinks: 'http://bigspringfilm.github.io/links.jsonp'
   media: 'media'
   metadata:
     _posts:
@@ -138,16 +138,14 @@ prose:
           label: "Select Category"
           placeholder: "Choose Category"
           options:
-            - name: "Docker"
-              value: "docker"
-            - name: "Linux"
-              value: "linux"
-            - name: "Jekyll"
-              value: "jekyll"
-            - name: "CLI"
-              value: "cli"
+            - name: "Screening"
+              value: "screening"
+            - name: "Meeting"
+              value: "meeting"
             - name: "Blog Post"
               value: "blog"
+            - name: "Movies on the Radio"
+              value: "MotR"
       - name: "tags"
         field:
           element: "multiselect"
@@ -155,22 +153,10 @@ prose:
           placeholder: "Choose Tags"
           alterable: true
           options:
-            - name: "Docker"
-              value: "docker"
-            - name: "Linux"
-              value: "linux"
-            - name: "Jekyll"
-              value: "jekyll"
-            - name: "CLI"
-              value: "cli"
-            - name: "Humor"
-              value: "humor"
-            - name: "Ruby"
-              value: "ruby"
-            - name: "Javascript"
-              value: "javascript"
-            - name: "Python"
-              value: "python"
+            - name: "Horror"
+              value: "horror"
+            - name: "Comedy"
+              value: "comedy"
     _posts/static:
       - name: "layout"
         field:
