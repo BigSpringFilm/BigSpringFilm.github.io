@@ -2,6 +2,8 @@
     <!-- Meta -->
     <title>{{ page.title }}</title>
     {% include opengraph.html %}
+	  <link rel="home" href="http://bigspringfilm.org/" />
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     {% if site.publish == true %}
@@ -12,22 +14,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="fb:app_id"       content="978128892233940" />
     <meta name="description" content="{% if site.summary %}{{ site.summary | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
-    <link rel="shortcut icon" href="favicon.ico">
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <!-- Global CSS -->
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">-->
     <!-- Plugins CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">-->
     <!-- Theme CSS -->
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/monokai_sublime.css">
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="stylesheet" href="/assets/css/animate.min.css">
+    <!--<link rel="stylesheet" href="/assets/css/bootstrap.min.css">-->
+    <!--<link rel="stylesheet" href="/assets/css/monokai_sublime.css">-->
+    <!--<link rel="stylesheet" href="/assets/css/main.css">-->
+    <!--<link rel="stylesheet" href="/assets/css/animate.min.css">-->
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script>window.initFuncs = [];</script>
+
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
+    <link rel="stylesheet" href="/css/theme.css" type="text/css">
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 </head>

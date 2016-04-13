@@ -15,7 +15,7 @@ help:
 	@echo ""   2. make drafts       - serve jekyll blog with drafts
 
 serve:
-	jekyll serve -P`cat port`
+	bundle exec jekyll serve -P`cat port`
 
 drafts:
-	jekyll serve --drafts -P`cat port`
+	bundle exec jekyll serve --drafts -P`cat port`

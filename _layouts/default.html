@@ -1,31 +1,116 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 
   {% include head.html %}
 
-  <body data-spy="scroll">
-
-  {% include facebook-init.html %}
+  <body id="home" >
 
   {% include header.html %}
 
+  <div class="container" id="main-container">
+
+    <!-- Inherited Main Content -->
+    
+    <main id="content" role="main">
+
+<div class="standard-page home-page">
+  
+  <div class="home-main-column">
+
   {% include promo.html %}
 
-  <div class= container>
     {{ content }}
+
+  <div class="home-side-column">
+
+    <div class="home-purchase-poster">
+      <a href="http://shop.bigspringfilm.org/">
+        <div class="home-purchase-text">
+          <p>
+            Get the
+            <br>
+            2016
+            <br>
+            <span class="poster-bigspring-top">
+              Big Spring
+            </span>
+            <span class="poster-bigspring-bottom">
+              Film Festival
+            </span>
+            Poster Here
+          </p>
+        </div>
+        <div class="home-purchase-image">
+          <img src="/images/poster.png" alt="">
+        </div>
+      </a>
+    </div>
+
+    <a href="/about" class="bsfs-button">
+      <span>Learn more about the</span>
+      Big Spring Fim Society
+    </a>
+
+    <div class="showroom-home-listing">
+      <h2>Festival Videos</h2>
+            <div class="showroom-home-videos">
+              <article>
+                <div class="showroom-image video-link" data-embed='<iframe width="560" height="315" src="https://www.youtube.com/embed/pX6ON4_DQ3w" frameborder="0" allowfullscreen></iframe> ' >
+            <img src="/images/showroom.jpg" alt="">    
+          </div>      
+          <div class="showroom-info">
+            <h4>The Ritz Theatre</h4>
+            <p>Recorded: September 11, 2001</p>
+          </div>
+        </article>
+              <article>
+          <div class="showroom-image video-link" data-embed='<iframe width="560" height="315" src="https://www.youtube.com/embed/pX6ON4_DQ3w" frameborder="0" allowfullscreen></iframe> ' >
+            <img src="/images/showroom.jpg" alt="">    
+          </div>      
+          <div class="showroom-info">
+            <h4>BSFS 86 Tumbleweed Smith Conversation</h4>
+            <p>Recorded: April 09, 2016</p>
+          </div>
+        </article>
+              <article>
+          <div class="showroom-image video-link" data-embed='<iframe width="560" height="315" src="https://www.youtube.com/embed/pX6ON4_DQ3w" frameborder="0" allowfullscreen></iframe> ' >
+            <img src="/images/showroom.jpg" alt="">    
+          </div>      
+          <div class="showroom-info">
+            <h4>BSFS 86 Brandon Johnson Interveiws Jason Robards</h4>
+            <p>Recorded: September 11, 2001</p>
+          </div>
+        </article>
+            </div>
+      <a href="/show/showroom" class="showroom-home-videos-view-more">Watch more in the Showroom</a>
+          </div>
+
+    <div class="home-button-standard">
+      <a href="http://shop.bigspringfilm.org/">Shop</a>
+    </div>
+    <div class="home-button-standard">
+      <a href="http://shop.bigspringfilm.org/pages/donations">Donate</a>
+    </div>
+        <a href="/mobile" class="mobile-app-button" style="background-image: url(http://bigspringfilm.org/images/mobile/42_mobile_sm.png)">
+      Grab the BSFS Shotlist App Here
+    </a>
+    
   </div>
 
-  {% include socialicons.html %}
+</div>
 
     {% include footer.html %}
 
-    {% include scripts.html %}
-
     {% include googleanalytics.html %}
 
-    <script>for (var k in window.initFuncs) { window.initFuncs[k](); } delete window.initFuncs;</script>
-  </body>
+  <div class="lightbox-area">
+    <div id="video-container" class="vimeo-content" class="lightbox-content"></div>
+    <div id="credits">
+      <h4>Site by</h4>
+      <h3><a target="_blank" href="http://webhosting.coop/">Webhosting.coop | Design and Engineering </a></h3>
+      <a target="_blank" class="site_link" href="http://webhosting.coop">Webhosting.coop</a>
+    </div>
+  </div>
 
+</body>
 </html>
